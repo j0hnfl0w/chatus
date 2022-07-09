@@ -1,0 +1,17 @@
+{
+  "name": "chatus-example",
+  "version": "1.0.0",
+  "description": "Chatus - chat module for Directus",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx directus start"
+  },
+  "keywords": [],
+  "author": "j0hnfl0w",
+  "license": "MIT",
+  "dependencies": {
+    "directus": "^9.13.0",
+    "sqlite3": "^5.0.8",
+    "directus-extension-chatus": "file:../"
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"name": "directus-extension-sutahc",
+	"description": "directus-extension-sutahc",
+	"version": "1.0.0",
+	"keywords": [
+		"directus",
+		"directus-extension",
+		"directus-custom-module"
+	],
+	"directus:extension": {
+		"type": "module",
+		"path": "dist/index.js",
+		"source": "src/index.js",
+		"host": "^9.13.0"
+	},
+	"scripts": {
+		"build": "directus-extension build",
+		"dev": "directus-extension build --watch",
+		"dev-example": "directus-extension build --watch",
+		"uno": "unocss \"src/**\" --out-file src/css/uno.css",
+		"unow": "unocss \"src/**\" --out-file src/css/uno.css --watch",
+		"nodekill": "taskkill /im node.exe /F"
+	},
+	"devDependencies": {
+		"@directus/extensions-sdk": "9.13.0",
+		"sass": "^1.53.0",
+		"unocss": "^0.43.2",
+		"vue": "^3.2.37"
+	},
+	"dependencies": {}
+}
