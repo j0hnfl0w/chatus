@@ -1,7 +1,7 @@
 {
 	"name": "directus-extension-sutahc",
 	"description": "directus-extension-sutahc",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"keywords": [
 		"directus",
 		"directus-extension",
@@ -19,8 +19,7 @@
 		"dev-example": "directus-extension build --watch",
 		"uno": "unocss \"src/**\" --out-file src/css/uno.css",
 		"unow": "unocss \"src/**\" --out-file src/css/uno.css --watch",
-		"nodekill": "taskkill /im node.exe /F",
-		"postinstall": "npm i && npx directus-extension build"
+		"nodekill": "taskkill /im node.exe /F"
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "9.13.0",
